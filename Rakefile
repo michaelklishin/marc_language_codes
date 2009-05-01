@@ -4,12 +4,11 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "marc_language_codes"
-    gem.summary = %Q{MARC language codes list, see http://en.wikipedia.org/wiki/MARC_standards}
-    gem.email = "michael@novemberain.com"
+    gem.name     = "marc_language_codes"
+    gem.summary  = %Q{MARC language codes list, see http://en.wikipedia.org/wiki/MARC_standards}
+    gem.email    = "michael@novemberain.com"
     gem.homepage = "http://github.com/michaelklishin/marc_language_codes"
-    gem.authors = ["Michael S. Klishin"]
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    gem.authors  = ["Michael S. Klishin"]
   end
 rescue LoadError
   puts "Jeweler (or a dependency) not available. Install it with: sudo gem install jeweler"
