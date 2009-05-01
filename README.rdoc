@@ -1,7 +1,0 @@
-= marc_language_codes
-
-Description goes here.
-
-== Copyright
-
-Copyright (c) 2009 Michael S. Klishin. See LICENSE for details.
